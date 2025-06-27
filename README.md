@@ -18,3 +18,14 @@ BookMate is a conversational AI assistant that helps users check calendar availa
 - **Calendar:** Google Calendar API (OAuth2)  
 - **AI Flow:** LangGraph (rule-based for this version)  
 - **Others:** Uvicorn, OpenAI (optional), Requests
+
+## 📁 Project Structure
+
+bookmate/
+├── main.py # FastAPI backend entry
+├── agent.py # Message parsing and routing logic
+├── calendar_api.py # Google Calendar authentication & booking
+├── streamlit_app.py # Streamlit UI interface
+├── requirements.txt # Dependencies list
+├── .gitignore # Ignored files (credentials, cache)
+├── README.md # You're reading it!
