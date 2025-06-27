@@ -1,0 +1,9 @@
+5. requirements.txt - dependencies
+
+# fastapi
+# uvicorn
+# openai
+# streamlit
+# google-auth
+# google-auth-oauthlib
+# google-api-python-client
