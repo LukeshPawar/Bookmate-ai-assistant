@@ -1,0 +1,22 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Credential and token files
+credentials.json
+token.json
+
+# Environment files
+.env
+
+# Streamlit and other local logs
+*.log
+*.db
+*.sqlite
+
+# VS Code settings (optional)
+.vscode/
+
+# OS-generated
+.DS_Store
+Thumbs.db
